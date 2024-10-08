@@ -11,9 +11,9 @@ local confirmButton = Instance.new("TextButton")
 confirmButton.Parent = screenGui
 confirmButton.Position = UDim2.new(0.5, 20, 0.5, -25)
 confirmButton.Size = UDim2.new(0, 50, 0, 50)
-confirmButton.Text = "a"
+confirmButton.Text = "confirmar"
 
-local key = "suaChaveAqui"
+local key = "chave23"
 
 confirmButton.MouseButton1Click:Connect(function()
     if textBox.Text == key then
