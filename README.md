@@ -21,20 +21,22 @@ confirmButton.MouseButton1Click:Connect(function()
         screenGui:Destroy() 
         print("Acesso concedido!")
         
-        local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noname929798/Qthbvcgb/refs/heads/main/README.md'),true))()
 
 
     else
         print("Chave incorreta.")
     end
 end)
+
 local player = game.Players.LocalPlayer
 if player.Name == "Carneassadagotoza" or player.Name ==  "Nicollasbobo1" or 
 player.Name ==  "allefmito123" then
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+screenGui:Destroy()
 
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noname929798/Qthbvcgb/refs/heads/main/README.md'),true))()
 end
 
 
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noname929798/Qthbvcgb/refs/heads/main/README.md'),true))()
+
