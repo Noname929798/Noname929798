@@ -14,7 +14,7 @@ confirmButton.Position = UDim2.new(0.5, 20, 0.5, -25)
 confirmButton.Size = UDim2.new(0, 50, 0, 50)
 confirmButton.Text = "confirmar"
 
-local key = "chave23"
+local key = "key-e02828"
 
 confirmButton.MouseButton1Click:Connect(function()
     if textBox.Text == key then
